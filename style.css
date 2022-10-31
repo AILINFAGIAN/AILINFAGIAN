@@ -1,0 +1,128 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&display=swap');
+*       {
+            margin: 0;
+        }
+
+header  {
+            background-color: black;
+        }
+
+  h1    {
+    
+            text-align:center;
+            font-family: 'Montserrat', sans-serif; font-weight:800;
+            font-size:x-large;
+            color: white;
+        }
+        
+  h2    {
+            text-align:center;
+            font-family: 'Montserrat', sans-serif; font-weight: 500;
+            font-size:large;
+            background-color: red;
+            color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+
+img     {
+            height: 150px;
+            weight:150px;
+            opacity: 70%;
+            border-radius: 50%;
+        }
+
+
+nav     {
+            display: inline-block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            width: 100%;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+ul      {
+           display: inline-block;
+           text-align:center;
+           width: 100%;
+    
+        }
+
+li      {
+          display: inline-block;
+          text-align: center;
+          margin-inline: 30px;
+          
+        }
+
+a       {
+          color:red
+        }
+
+main    {
+           background-image: url("main.jpg");
+           background-position:center;
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+    
+        }
+
+.box    {
+           width: 300px;
+           height: 300px;
+    
+        }
+
+
+.box1   {
+           background-color: black;
+           margin-left: 50px;
+           border: 10px solid white;
+        }
+
+h3      {
+           text-align:center;
+           font-family: 'Montserrat', sans-serif; font-weight:800;
+           font-size:x-large;
+           color: white;
+
+        }        
+
+.box2   {
+           background-color: green;
+           border-radius: 50%;
+           margin: auto;
+           padding: 50px;
+           opacity:80%;
+        } 
+
+p       {
+           text-align:center;
+           font-family: 'Montserrat', sans-serif; font-weight:800;
+           font-size:large;
+           color: black;
+           padding-top: 60px;
+           font-style: oblique;
+        }
+
+
+
+footer  {
+         background-color: red; 
+         
+        }
+
+h4      {
+    
+            text-align:center;
+            font-family: 'Montserrat', sans-serif; font-weight:800;
+            font-size:large;
+            color: black;
+        }
+                
