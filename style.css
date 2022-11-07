@@ -1,8 +1,10 @@
 
-
+@media screen and {min-width: 320px;}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&display=swap');
 *       {
             margin: 0;
+            padding:0%;
+            box-sizing: border-box;
         }
 
 header  {
@@ -76,6 +78,7 @@ main    {
 .box    {
            width: 300px;
            height: 300px;
+           
     
         }
 
@@ -84,6 +87,8 @@ main    {
            background-color: black;
            margin-left: 50px;
            border: 10px solid white;
+           overflow: hidden;
+           
         }
 
 h3      {
@@ -92,13 +97,13 @@ h3      {
            font-size:x-large;
            color: white;
 
-        }        
+        }   
+        
 
 .box2   {
            background-color: green;
            border-radius: 50%;
            margin: auto;
-           padding: 50px;
            opacity:80%;
         } 
 
@@ -107,7 +112,7 @@ p       {
            font-family: 'Montserrat', sans-serif; font-weight:800;
            font-size:large;
            color: black;
-           padding-top: 60px;
+           padding:50px;
            font-style: oblique;
         }
 
