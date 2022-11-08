@@ -57,17 +57,14 @@ ul      {
 li      {
           display:flow-root;
           text-align:center;
-          margin-inline: 40px;
           width: fit-content;
+          margin-inline: 40px;
         }
 
 a       {
           color:red
         }
 
-nav,ul,li {
-         
-}
 main    {
            background-image: url("main.jpg");
            background-position:center;
@@ -104,8 +101,9 @@ h3      {
 .box2   {
            background-color: green;
            border-radius: 50%;
-           margin: auto;
+           margin-left:600px;
            opacity:80%;
+           
         } 
 
 p       {
@@ -113,8 +111,8 @@ p       {
            font-family: 'Montserrat', sans-serif; font-weight:800;
            font-size:large;
            color: black;
-           padding:50px;
            font-style: oblique;
+           padding: 50px;
         }
 
 
