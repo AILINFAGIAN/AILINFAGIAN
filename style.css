@@ -43,14 +43,14 @@ nav     {
             margin-bottom:20px;
             display:inline-flex;
             text-align: center;
-            width:100%;
+            
             font-family: 'Montserrat', sans-serif;
         }
 
 ul      {
            display:inline-flex;
            text-align:center;
-           width:100%;
+           
         }
 
 li      {
@@ -63,6 +63,9 @@ a       {
           color:red
         }
 
+nav,ul,li {
+         
+}
 main    {
            background-image: url("main.jpg");
            background-position:center;
