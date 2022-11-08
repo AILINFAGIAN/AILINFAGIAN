@@ -41,22 +41,24 @@ img     {
 nav     {
             margin-top:20px;
             margin-bottom:20px;
-            display:inline-flex;
+            display:flow-root;
             text-align: center;
-            
+            width: fit-content;
             font-family: 'Montserrat', sans-serif;
         }
 
 ul      {
-           display:inline-flex;
+           display:flow-root;
+           width: fit-content;
            text-align:center;
            
         }
 
 li      {
-          display:inline-flex;
+          display:flow-root;
           text-align:center;
           margin-inline: 40px;
+          width: fit-content;
         }
 
 a       {
