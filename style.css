@@ -26,8 +26,8 @@
             font-size:large;
             background-color: red;
             color: black;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
         
 
@@ -40,32 +40,39 @@ img     {
 
 nav     {
             margin-top:20px;
-            margin-bottom:20px;
-            display:flow-root;
-            text-align: center;
-            width: fit-content;
+            margin-bottom:50px;
+            display:inline-block;
+            text-align:center;
+            width: 100%;
             font-family: 'Montserrat', sans-serif;
         }
 
 ul      {
-           display:flow-root;
-           width: fit-content;
-           text-align:center;
+           display:inline-block;
+           width: 100%;
            
         }
 
 li      {
-          display:flow-root;
-          text-align:center;
-          width: fit-content;
-          margin-inline: 40px;
+          display:inline-block;
+          margin-inline:30px;
         }
+
+nav,ul,li,a{ 
+           float:left;
+           text-decoration:solid;
+           font-weight: bolder;
+           font-size: large;
+
+         }
 
 a       {
-          color:red
+          color:white;
+          
+          
         }
 
-main    {
+body    {
            background-image: url("main.jpg");
            background-position:center;
            background-size: cover;
@@ -101,7 +108,8 @@ h3      {
 .box2   {
            background-color: green;
            border-radius: 50%;
-           margin-left:600px;
+           margin:auto;
+           
            opacity:80%;
            
         } 
@@ -119,14 +127,21 @@ p       {
 
 footer  {
          background-color: red; 
-         
+         border-top-right-radius: 70%;
+         margin-top: 100px;
+         height:auto;
+         border-style: dotted;
         }
 
 h4      {
     
-            text-align:center;
+            text-align:left;
             font-family: 'Montserrat', sans-serif; font-weight:800;
             font-size:large;
-            color: black;
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 50px;
+            font-weight: bolder;
         }
         
