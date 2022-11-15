@@ -33,7 +33,6 @@
 
 img     {
             height: 150px;
-            weight:150px;
             opacity: 70%;
             border-radius: 50%;
         }
@@ -71,6 +70,16 @@ a       {
           
           
         }
+
+@media screen and (max-width:600px){
+
+        nav,ul,li{
+           display:flex;
+           flex-direction: column;     
+        }
+}
+
+
 
 body    {
            background-image: url("main.jpg");
