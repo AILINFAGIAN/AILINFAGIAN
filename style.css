@@ -39,7 +39,7 @@ img     {
 
 nav     {
             margin-top:20px;
-            margin-bottom:50px;
+            margin-bottom:30px;
             display:inline-block;
             text-align:center;
             width: 100%;
@@ -54,28 +54,27 @@ ul      {
 
 li      {
           display:inline-block;
-          margin-inline:30px;
+          margin-inline:20px;
         }
 
 nav,ul,li,a{ 
-           float:left;
+           
            text-decoration:solid;
            font-weight: bolder;
-           font-size: large;
+           font-size:large;
 
          }
 
 a       {
-          color:white;
-          
-          
+          color:red;
         }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:1020px){
 
         nav,ul,li{
            display:flex;
-           flex-direction: column;     
+           flex-direction: column; 
+           gap:10px;    
         }
 }
 
